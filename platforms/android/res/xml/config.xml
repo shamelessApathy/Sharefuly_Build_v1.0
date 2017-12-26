@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.sharefuly" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
@@ -35,12 +35,13 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
-    <name>CLI</name>
+    <name>Sharefuly</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Simple application to upload files to a stock photography repository.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="bcm811@gmail.com" href="https://sharefuly.com">
+       Brian C Moniz
+       Sharefuly LLC
     </author>
     <content src="index.html" />
     <access origin="*" />
