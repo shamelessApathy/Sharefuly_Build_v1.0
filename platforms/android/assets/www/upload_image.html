@@ -1,0 +1,73 @@
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel='stylesheet' type='text/css' href='css/app-styles.css'/>
+
+
+
+
+
+<body>
+<div class='title-bar'>
+<h2>Sharefuly</h2>
+<button id='logout'>Logout</button>
+</div>
+<div id='pg-user-avatar'></div>
+<div class='app-upload-container'>
+<div class='upload-warning'>Make sure your image is orientated properly, look at the preview <a href='#below'>below</a></div>
+<h3 class='upload-title'> Upload an Image</h3>
+<form enctype='multipart/form-data' id='pg-file-form'>
+<label class='image_file_label' for='image_file'>Choose File</label>
+<input type='file' id='image_file' name='image'><br>
+<label>Image Name:</label><br>
+<input type='text' id='image-name' name='user_image_name'/><br>
+<label>Category</label><br>
+	<select id="upload-category" name="category-id">
+		<option>Choose a Category</option>
+		<option value="4">Sports</option>
+		<option value="5">Outdoors</option>
+		<option value="6">City</option>
+		<option value="7">Plants</option>
+		<option value="8">Animals</option>
+		<option value="9">People</option>
+		<option value="10">Food</option>
+		<option value="11">Events</option>
+		<option value="12">Things</option>
+	</select>	
+<label>Tags</label><br>
+<div id='tag_div'></div><br>
+<input id='tag_holder' type='text' style='display:none;' name='tags' placeholder='Use tag editor to add tags' readonly/><br>
+<label>Tag Editor</label><br>
+<input id='new_tag'><button id='add_tag' type='button'>Add</button>
+<br>
+<input type='number' name='rotate' id='rotate' value='0' HIDDEN>
+<button style='margin-top:10px;' id='ie-upload-submit'>Submit</button>
+
+<br>
+
+</form>
+
+
+
+	<div class='image-controls'>
+	<span id='counterclockwise'  style='float:left;'><img src='img/counterclockwise-icon.png'/></span>
+	<span id='clockwise' style='float:right;'><img src='img/clockwise-icon.png'/></span>
+	</div>
+	<div  id='below' class='upload_preview_holder'>
+	<img width=300  id='upload_preview'/>
+	</div>	
+</div> 
+
+
+
+
+
+<script src='js/jquery.js' type='text/javascript' rel='javascript'></script>
+<script src='js/jqueryrotate.js' type='text/javascript' rel='javascript'></script>
+<script src='js/tag_format.js' type='text/javascript' rel='javascript'></script>
+<script src='js/category.js' type='text/javascript' rel='javascript'></script>
+<script src='js/ImageUpload.js' type='text/javascript' rel='javascript'></script>
+<script src='js/logout.js' type='text/javascript' rel='javascript'></script>
+	
+
+
+</body>
