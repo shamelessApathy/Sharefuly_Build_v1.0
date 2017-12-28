@@ -1,11 +1,11 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "CLI",
-  "short_name": "CLI",
-  "version": "com.phonegap.helloworld",
-  "description": "Hello World sample application that responds to the deviceready event.",
-  "author": "PhoneGap Team",
+  "name": "Sharefuly",
+  "short_name": "Sharefuly",
+  "version": "com.phonegap.sharefuly",
+  "description": "Simple upload application for stock photography site",
+  "author": "Brian C Moniz\n        Sharefuly LLC",
   "icons": [],
   "start_url": "index.html"
 }

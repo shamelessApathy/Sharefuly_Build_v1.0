@@ -13,7 +13,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <platform name="android">
         <icon src="res/icon.png" />
-        <splash src="www/res/screen/android/icon.png" density="land-hdpi"/>
+        <splash density="land-hdpi" src="www/res/screen/android/icon.png" />
     </platform>
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
@@ -91,4 +91,5 @@
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
     <plugin name="cordova-plugin-network-information" spec="~1.3.3" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
 </widget>

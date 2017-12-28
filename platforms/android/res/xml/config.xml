@@ -35,13 +35,17 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Sharefuly</name>
     <description>
-        Simple application to upload files to a stock photography repository.
+        Simple upload application for stock photography site
     </description>
     <author email="bcm811@gmail.com" href="https://sharefuly.com">
-       Brian C Moniz
-       Sharefuly LLC
+        Brian C Moniz
+        Sharefuly LLC
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -57,5 +61,4 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <access origin="https://sharefuly.com" />
 </widget>
